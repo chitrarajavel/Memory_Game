@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Memory Game!</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Memory Game!</h1>        
+        <p>
+            <p>Beat the Lowest Score</p>
+            <form id="totalNumOfColors">
+                <label for="userInput"> Input Total Number of Colors: </label>
+                <input type="number" id="userInput" name="userInput" value="5"/>                
+            </form>
+            <button id="startButton"> Start </button>
+            <span> Lowest Score: </span> <span id="lowestScore"> </span>
+            <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Current Score: </span>
+            <span id="curScore"> 0 </span>
+        </p>        
+        <div id="game"></div>
+        <div id="gameOver">GAME OVER!!!</div>        
+        <script src="script.js"></script>
+    </body>
+</html>

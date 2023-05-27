@@ -5,7 +5,7 @@ Get started by creating a new file or uploading an existing file. We recommend e
 …or create a new repository on the command line
 
 echo "# myrepo" >> README.md
-git init
+<p>git init</p>
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/chitrarajavel/Memory_Game.git
